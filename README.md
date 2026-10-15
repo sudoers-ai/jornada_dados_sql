@@ -4,6 +4,10 @@ Neste módulo, você será guiado no aprendizado do **SQL**.
 
 Ao longo do curso, você aprenderá os fundamentos e aplicará técnicas avançadas da linguagem, desenvolvendo consultas transacionais e analíticas até alcançar um nível de maestria.
 
+> 👉 **Por onde começar:** suba o banco em [Como começar](#como-comecar) e siga a
+> [sequência das aulas](#sequencia-das-aulas): cada aula tem um vídeo e um roteiro
+> em cinco níveis, do Júnior ao Sudoers. A teoria logo abaixo é para consulta.
+
 ---
 
 ## 🗂️ Sobre o ANSI-SQL
@@ -158,27 +162,14 @@ Além dos básicos, muitos SGBDs adicionam tipos extras:
 - **XML** → dados estruturados em XML.  
 
 ---
----
 
 # Liga Sudoers - Treinamento SQL
 
 Este repositório fornece uma estrutura prática para aprendizado de SQL, incluindo:  
 - 1 ambiente PostgreSQL pré-configurado  
 
-📺 Recursos complementares:
-- [Curso SQL](https://www.youtube.com/watch?v=aQd5_vcn18U&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ)  
-- [Aula 01 - Leitura Otimizada com SELECT](https://www.youtube.com/watch?v=Y6LnIujlbhc&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=3)  
-- [Aula 02 - Acessando tabelas com FROM](https://www.youtube.com/watch?v=Kf0NUbhKmjI&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=4)  
-- [Aula 03 - Teoria de Conjuntos](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=5)  
-- [Aula 04 - Usando Operadores](https://www.youtube.com/watch?v=L2yPSbdaODw&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=6)  
-- [Aula 05 - WHERE e ORDER BY](https://www.youtube.com/watch?v=ZNzAN_MbaNw&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=7)  
-- [Aula 05 - ORDER BY (parte 2)](https://www.youtube.com/watch?v=Fc2p-uj7W4c&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=8)  
-- [Aula 06 - Inserção de Dados](https://www.youtube.com/watch?v=Hj2rkoiW8WY&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=9)  
-- [Aula 07 - Atualização de Dados](https://www.youtube.com/watch?v=u8C4WDZ1y5s&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=10)  
-- [Aula 08 - Remoção de Dados](https://www.youtube.com/watch?v=qQ4PyIbYOnk&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=11)  
+📺 Cada aula tem vídeo e roteiro em cinco níveis: veja a [sequência das aulas](#sequencia-das-aulas).
 
-
-Deixe seu like e comentário nos vídeos do YouTube, isso ajuda e incentiva nosso trabalho. 
 ---
 
 ## 👤 Perfil e Responsabilidades
@@ -207,11 +198,12 @@ Em **2 passos**, você terá o banco **PostgreSQL** rodando localmente com tabel
 
 ---
 
+<a id="como-comecar"></a>
 ## 🚀 Como começar
 
 ```bash
 # 1. Clone este repositório
-git clone https://github.com/aquinovale/jornada_dados_sql
+git clone https://github.com/sudoers-ai/jornada_dados_sql
 cd jornada_dados_sql
 
 # 2. Configure variáveis de ambiente (usuário/senha/banco)
@@ -234,6 +226,49 @@ psql -U sudoers -d liga_sudoers -h postgres_liga_sudoers
 ```
 
 🔑 **Senha:** `password`
+
+---
+
+<a id="sequencia-das-aulas"></a>
+## 🗺️ Sequência das aulas
+
+Cada aula tem **um vídeo** e **um roteiro escrito em cinco níveis**. O caminho é sempre o mesmo:
+
+1. Suba o banco (seção [Como começar](#como-comecar)).
+2. Assista ao vídeo da aula.
+3. Abra o roteiro do **seu nível** e rode os comandos no `psql`, um por um.
+4. Se o roteiro tiver exercícios no fim, responda antes de passar para a próxima aula.
+
+| Nível | Para quem | O foco |
+|---|---|---|
+| **Júnior** | primeiro contato com SQL | o comando básico, comentado linha a linha |
+| **Pleno** | já domina o básico | funções, `CAST`, `CASE` e casos práticos |
+| **Sênior** | escreve SQL no dia a dia | subconsultas, CTEs e cenários reais |
+| **Especialista** | quer ir fundo na linguagem | CTEs recursivas, janelas, `LATERAL` e regex |
+| **Sudoers 🛡️** | pensa como guardião dos dados | desempenho, plano de execução e segurança |
+
+> Comece pelo **Júnior**, mesmo que já conheça SQL: os níveis seguintes partem dele. Depois suba de nível na mesma aula ou siga para a próxima, como preferir.
+
+| # | Tema | 📺 Vídeo | Júnior | Pleno | Sênior | Especialista | Sudoers 🛡️ |
+|---|---|---|---|---|---|---|---|
+| 1 | SELECT: ler só o que precisa | [Leitura otimizada com SELECT](https://www.youtube.com/watch?v=Y6LnIujlbhc&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=3) | [roteiro](./aulas/junior/aula-01.md) | [roteiro](./aulas/pleno/aula-01.md) | [roteiro](./aulas/senior/aula-01.md) | [roteiro](./aulas/especialista/aula-01.md) | [roteiro](./aulas/sudoers/aula-01.md) |
+| 2 | FROM e JOINs | [Acessando tabelas com FROM](https://www.youtube.com/watch?v=Kf0NUbhKmjI&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=4) | [roteiro](./aulas/junior/aula-02.md) | [roteiro](./aulas/pleno/aula-02.md) | [roteiro](./aulas/senior/aula-02.md) | [roteiro](./aulas/especialista/aula-02.md) | [roteiro](./aulas/sudoers/aula-02.md) |
+| 3 | Teoria dos conjuntos | [Teoria de conjuntos](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=5) | [roteiro](./aulas/junior/aula-03.md) | [roteiro](./aulas/pleno/aula-03.md) | [roteiro](./aulas/senior/aula-03.md) | [roteiro](./aulas/especialista/aula-03.md) | [roteiro](./aulas/sudoers/aula-03.md) |
+| 4 | Operadores | [Usando os operadores](https://www.youtube.com/watch?v=L2yPSbdaODw&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=6) | [roteiro](./aulas/junior/aula-04.md) | [roteiro](./aulas/pleno/aula-04.md) | [roteiro](./aulas/senior/aula-04.md) | [roteiro](./aulas/especialista/aula-04.md) | [roteiro](./aulas/sudoers/aula-04.md) |
+| 5 | WHERE e ORDER BY | [WHERE e ORDER BY](https://www.youtube.com/watch?v=ZNzAN_MbaNw&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=7)<br>[ORDER BY (parte 2)](https://www.youtube.com/watch?v=Fc2p-uj7W4c&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=8) | [roteiro](./aulas/junior/aula-05.md) | [roteiro](./aulas/pleno/aula-05.md) | [roteiro](./aulas/senior/aula-05.md) | [roteiro](./aulas/especialista/aula-05.md) | [roteiro](./aulas/sudoers/aula-05.md) |
+| 6 | Inserção de dados (INSERT) | [Inserção de dados](https://www.youtube.com/watch?v=Hj2rkoiW8WY&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=9) | [roteiro](./aulas/junior/aula-06.md) | [roteiro](./aulas/pleno/aula-06.md) | [roteiro](./aulas/senior/aula-06.md) | [roteiro](./aulas/especialista/aula-06.md) | [roteiro](./aulas/sudoers/aula-06.md) |
+| 7 | Atualização de dados (UPDATE) | [Atualização de dados](https://www.youtube.com/watch?v=u8C4WDZ1y5s&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=10) | [roteiro](./aulas/junior/aula-07.md) | [roteiro](./aulas/pleno/aula-07.md) | [roteiro](./aulas/senior/aula-07.md) | [roteiro](./aulas/especialista/aula-07.md) | [roteiro](./aulas/sudoers/aula-07.md) |
+| 8 | Remoção de dados (DELETE) | [Remoção de dados](https://www.youtube.com/watch?v=qQ4PyIbYOnk&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=11) | [roteiro](./aulas/junior/aula-08.md) | [roteiro](./aulas/pleno/aula-08.md) | [roteiro](./aulas/senior/aula-08.md) | [roteiro](./aulas/especialista/aula-08.md) | [roteiro](./aulas/sudoers/aula-08.md) |
+
+Todos os roteiros usam o banco `liga_sudoers`, que sobe pronto com o Docker.
+
+---
+
+## 📺 Recursos complementares
+
+O [Curso de SQL Básico](https://www.youtube.com/watch?v=aQd5_vcn18U&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ) tem os vídeos de todas as aulas acima, e outros temas que ainda não têm roteiro neste repositório (`COPY`, *views*, *sequences*, subconsultas, funções, `GROUP BY` e *window functions*).
+
+Deixe seu like e comentário nos vídeos do YouTube, isso ajuda e incentiva nosso trabalho.
 
 ---
 
