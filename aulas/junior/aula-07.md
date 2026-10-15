@@ -73,4 +73,4 @@ WHERE id = 3;
 ---
 
 📺 **Vídeo complementar:**  
-[Aula 07 – Atualizando dados no SQL](www.youtube.com/watch?v=u8C4WDZ1y5s&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=17) 
+[Aula 07 – Atualizando dados no SQL](https://www.youtube.com/watch?v=u8C4WDZ1y5s&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=10) 

@@ -65,4 +65,4 @@ WHERE ativo = FALSE;
 ---
 
 📺 **Vídeo complementar:**  
-[Aula 08 – Removendo dados no SQL](www.youtube.com/watch?v=u8C4WDZ1y5s&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=18) 
+[Aula 08 – Removendo dados no SQL](https://www.youtube.com/watch?v=qQ4PyIbYOnk&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=11) 

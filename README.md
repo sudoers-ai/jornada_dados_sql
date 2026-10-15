@@ -167,15 +167,15 @@ Este repositório fornece uma estrutura prática para aprendizado de SQL, inclui
 
 📺 Recursos complementares:
 - [Curso SQL](https://www.youtube.com/watch?v=aQd5_vcn18U&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ)  
-- [Aula 01 - Leitura Otimizado com SELECT](https://www.youtube.com/watch?v=Y6LnIujlbhc&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=10)  
-- [Aula 02 - Acessando tabelas com FROM](https://www.youtube.com/watch?v=Y6LnIujlbhc&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=11)  
-- [Aula 03 - Teoria de Conjuntos](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=12)  
-- [Aula 04 - Usando Operadores](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=13)  
-- [Aula 05 - WHERE e ORDER BY](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=14)  
-- [Aula 05 - ORDER BY (parte 2)](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=15)  
-- [Aula 06 - Inserção de Dados)](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=16)  
-- [Aula 07 - Atualização de Dados)](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=17)  
-- [Aula 08 - Remoção de Dados)](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=18) 
+- [Aula 01 - Leitura Otimizada com SELECT](https://www.youtube.com/watch?v=Y6LnIujlbhc&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=3)  
+- [Aula 02 - Acessando tabelas com FROM](https://www.youtube.com/watch?v=Kf0NUbhKmjI&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=4)  
+- [Aula 03 - Teoria de Conjuntos](https://www.youtube.com/watch?v=YEskDoibdBQ&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=5)  
+- [Aula 04 - Usando Operadores](https://www.youtube.com/watch?v=L2yPSbdaODw&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=6)  
+- [Aula 05 - WHERE e ORDER BY](https://www.youtube.com/watch?v=ZNzAN_MbaNw&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=7)  
+- [Aula 05 - ORDER BY (parte 2)](https://www.youtube.com/watch?v=Fc2p-uj7W4c&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=8)  
+- [Aula 06 - Inserção de Dados](https://www.youtube.com/watch?v=Hj2rkoiW8WY&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=9)  
+- [Aula 07 - Atualização de Dados](https://www.youtube.com/watch?v=u8C4WDZ1y5s&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=10)  
+- [Aula 08 - Remoção de Dados](https://www.youtube.com/watch?v=qQ4PyIbYOnk&list=PLD3-a_5KsN3nuXukrq8kCYtxnZR4FD2nJ&index=11)  
 
 
 Deixe seu like e comentário nos vídeos do YouTube, isso ajuda e incentiva nosso trabalho. 
